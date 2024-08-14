@@ -41,7 +41,7 @@ def save_and_run_code(python_code):
 
 def main():
     
-    request = input("Enter your order to execute")
+    request = input("Enter your order to execute\n")
     prompt = "create a python code to do this order : \n" + request
     try:
         response = send_request_to_chatgpt(prompt)
