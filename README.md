@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
     git clone https://github.com/thejsondev/NL2CodeExecutor.git
     cd NL2CodeExecutor
     pip install requests
-    python assist.py```
+    python assist.py
 
 By default, the script is set to request a Python function for calculating the factorial of a number. You can modify the prompt variable in the main() function to use different prompts.
 
